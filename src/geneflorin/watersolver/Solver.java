@@ -55,4 +55,8 @@ public class Solver {
             // System.out.println("Already seen" + pos);
         }
     }
+
+    public int numPositionsConsidered() {
+        return traverse.size();
+    }
 }
